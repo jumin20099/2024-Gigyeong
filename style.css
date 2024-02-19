@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    line-height: 35px;
+}
+
+body{
+    background-color: white !important;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+header{ 
+    position: sticky;
+    z-index: 10000;
+    top: 0;
+}
+
+#headerContainer{
+    border-bottom: solid rgb(24, 22, 22) 2px;
+    display: flex;
+    background-color: white;
+    height: 80px;
+}
+
+.logoDiv{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.logoDiv>a>img{
+    width: 200px;
+}
+
+.section1{
+    display: flex;
+    width: 15000px;
+}
+
+.section1>a{
+    margin: 20px 15px 10px 0px;
+    text-decoration-line: none;
+    color: rgb(158, 158, 158);
+}
+
+.section1>a:hover{
+    color: black;
+}
+
+.section2>a{
+    margin: 20px 15px 10px 0px;
+    text-decoration-line: none;
+    color: rgb(158, 158, 158);
+}
+
+.section2>a:hover{
+    color: black;
+}
+
+.section2{
+    display: flex;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.section2>p{
+    margin: 20px 15px 10px 0px;
+}
+
+#banner{
+    margin-bottom: 100px;
+}
+
+#banner>img{
+    width: 100%;
+    height: 800px;
+    border-top: solid rgb(24, 22, 22) 3px;
+    border-bottom: solid rgb(24, 22, 22) 3px;
+}
+
+#btnCtrl{
+    margin-bottom: 100px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#stopBtn{
+    font-weight: 900;
+    margin-right: 50px;
+    padding: 10px;
+    width: 100px;
+}
+
+#playBtn{
+    font-weight: 900;
+    padding: 10px;
+    width: 100px;
+}
+
+#contentBoxSection1{
+    display: flex;
+    margin-left: 100px;
+}
+
+.contentBox1{
+    margin-left: 220px;
+}
+
+.contentBox1>p{
+    font-size: 19px;
+}
+
+.contentBox1>h1{
+    margin-bottom: 15px;
+}
+
+.contentBox1>img{
+    border-radius: 15px;
+    width: 400px;
+    border: solid rgb(24, 22, 22) 3px;
+}
+
+.contentBox2{
+    margin-left: 430px;
+}
+
+.contentBox2>h1{
+    margin-bottom: 15px;
+}
+
+.contentBox2>p{
+    font-size: 19px;
+}
+
+.contentBox2>img{
+    border-radius: 15px;
+    width: 400px;
+    border: solid rgb(24, 22, 22) 3px;
+}
+
+.contentBox3{
+    margin: 200px 0px 300px 0px;
+}
+
+.contentBox3>h1{
+    margin-bottom: 15px;
+    margin-left: 750px;
+}
+
+.contentBox3>p{
+    font-size: 19px;
+    margin-left: 750px;
+}
+
+.contentBox3>div>img{
+    border-radius: 15px;
+    width: 400px;
+    border: solid rgb(24, 22, 22) 3px;
+}
+
+.contentBox3>div{
+    text-align: center;
+}
+
+.contentImg{
+    width: 500px;
+}
+
+#map{
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+#map>h1{
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+#map>img{
+    width: 800px;
+    border-radius: 15px;
+    border: solid rgb(24, 22, 22) 3px;
+}
+
+footer{
+    background-color: rgb(24, 22, 22);
+    color: white;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    margin-top: 366px;
+}
+
+#iconContainer{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.icons{
+    margin-left: 10px;
+}
+
+#icon1{
+    color: green;
+}
+
+#icon2{
+    color: red;
+}
+
+#icon3{
+    color: gray;
+}
+
+#resTable{
+    margin: 0 auto;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 1700px;
+}
+
+.trBorder{
+    border: 1px solid black;
+}
+
+.trBorder>th{
+    border: 1px solid black;
+}
+
+.trBorder>td{
+    border: 1px solid black;
+}
+
+.reservation_manu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1300px;
+}
+
+.reservation_main{
+    align-items: center;
+}
+
+.reservation_sbmanu{
+    margin: 10px;
+}
+
+.sat {
+    color: blue;
+}
+
+.sun, .R {
+    color: red;
+}
+
+.W{
+    color: green;
+    cursor: pointer;
+}
+
+.C{
+    color: gray;
+}
+
+#contents{
+    display: flex;
+}
+
+#banner{
+    margin-left: 50px;
+    margin-top: 400px;
+}
+
+#banner>img{
+    width: 10   00px;
+    height: 1000px;
+    border: solid rgb(24, 22, 22) 3px;
+    border-radius: 10px;
+}
+
+.contents{
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    border-radius: 10px;
+    border: solid rgb(24, 22, 22) 3px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#content1>pre{
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 20px;
+    color: rgb(11, 109, 11);
+}
+
+#content2>pre{
+    font-size: 13px;
+    line-height: 17px;
+    margin-left: 20px;
+    color: rgb(11, 109, 11);
+}
+
+#content1{
+    margin-top: 200px;
+}
+
+#content2{
+    margin-bottom: 100px;
+    height: 820px;
+}
+
+#contentsContainer{
+    margin-top: 45px;
+    position: relative;
+}
+
+.titles{
+    background-color: rgb(148, 76, 17);
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 320px;
+    border-radius: 10px;
+    border: solid rgb(24, 22, 22) 3px;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+}
+
+#title1{
+    top: 170px;
+}
+
+#title2{
+    top: 825px;
+}
+
+#name{
+    margin: 0px 10px 0px 10px;
+}
+
+#phoneNumber{
+    margin-left: 10px;
+}
+
+#button-addon2{
+    margin-right: 10px;
+}
+
+#phoneVerify{
+    margin: 0px 10px 0px 10px;
+}
+
+#myPageTable{
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+    align-items: center;
+    border: solid 1px black;
+    background-color: rgb(236, 236, 236);
+    width: 70%;
+}
+
+.myPageTr{
+    border: solid 1px black;
+}
+
+.myPageTh{
+    border: solid 1px black;
+    width: 150px;
+}
+
+.myPageTd{
+    border: solid 1px black;
+    font-weight: 400px
+}
+
+.myPageTd>button{
+    padding: 0px 5px 0px 5px;
+    background-color: rgb(232, 255, 198);
+    border: solid 1px black;
+    width: 100%;
+    font-weight: 400px
+}
+
+.myPageTd>button:hover{
+    background-color: rgb(216, 255, 156);
+    font-weight: 900;
+}
