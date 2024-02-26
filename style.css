@@ -5,6 +5,10 @@
     line-height: 35px;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-color: white !important;
 }
@@ -66,7 +70,7 @@ header{
 .section2{
     display: flex;
     margin-left: 50px;
-    width: 100%;
+    width: 1700px;
 }
 
 .section2>p{
@@ -192,8 +196,8 @@ footer{
     background-color: rgb(24, 22, 22);
     color: white;
     text-align: center;
-    padding: 40px 0px 40px 0px;
-    margin-top: 366px;
+    padding: 20px 0px 20px 0px;
+    margin-top: 500px;
 }
 
 #iconContainer{
@@ -395,4 +399,19 @@ footer{
 .myPageTd>button:hover{
     background-color: rgb(216, 255, 156);
     font-weight: 900;
+}
+
+#loginContainer{
+    text-align: center;
+    margin-top: 300px;
+}
+
+#loginContainer > form > input{
+    margin-top: 5px;
+    width: 300px;
+}
+
+#loginContainer > form > button{
+    margin-top: 5px;
+    width: 300px;
 }

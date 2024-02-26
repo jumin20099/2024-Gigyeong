@@ -1,40 +1,11 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css">
-    <title>Skills Camping - 캠핑장 소개</title>
-</head>
-<body>
-    <header>
-        <div id="headerContainer">
-            <div class="logoDiv">
-                <a href="./index.html">
-                    <img src="logo.JPG" alt="">
-                </a>
-            </div>
-            <div class="section1">
-                <a style="color: black;" href="./camping.html">캠핑장 소개</a>
-                <a href="./reservation.html">예약하기</a>
-                <a href="./myPage.html">마이 페이지</a>
-            </div>
-            <div class="section2">
-                <a href="#">로그인</a>
-                <a href="#">운영관리</a>
-            </div>
-        </div>
-    </header>
-
-    <div id="contents">
-        <div id="banner">
-            <img class="contentImg" src="Camp-map.jpg" alt="">
-        </div>
-        <div id="contentsContainer">
-            <div class="titles" id="title1">캠핑장 소개</div>
-            <div class="contents" id="content1">
-                <pre>
+<div id="contents">
+    <div id="banner">
+        <img class="contentImg" src="Camp-map.jpg" alt="">
+    </div>
+    <div id="contentsContainer">
+        <div class="titles" id="title1">캠핑장 소개</div>
+        <div class="contents" id="content1">
+            <pre>
 
 
 
@@ -62,10 +33,10 @@
 
 ※ 바비큐 서비스 주문은 캠핑장 예약 후 마이페이지 메뉴에서 하실 수 있습니다.
                 </pre>
-            </div>
-            <div class="titles" id="title2">캠핑장 이용 수칙</div>
-            <div class="contents" id="content2">
-                <pre>
+        </div>
+        <div class="titles" id="title2">캠핑장 이용 수칙</div>
+        <div class="contents" id="content2">
+            <pre>
 
 
 
@@ -114,18 +85,9 @@
 - 위급을 요하는 경우와 호우 · 강풍 등으로 피난이 필요한 경우
   관리자의 지시에 따라 주시기 바랍니다.
                 </pre>
-            </div>
-        </div>
-
-
         </div>
     </div>
-    <footer>
-        <p>
-            Copyright(C) Skills Camping All Rights Reserved.<br>충청남도 청양군 대치면 까치내로 123<br>고객센터 전화번호 : 041-987-1234<br>
-            고객센터 운영시간 : 평일 09:00 ~ 18:00, 주말 10:00 ~ 15:00, 점심시간 12:30 ~ 13:30<br>
-            개인정보처리방침, 홈페이지 이용약관
-        </p>
-    </footer>
-</body>
-</html>
+
+
+</div>
+</div>

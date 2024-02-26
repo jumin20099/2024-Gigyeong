@@ -1,32 +1,6 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.css">
-    <title>Skills Camping - My Page</title>
-</head>
-<body>
-    <header>
-        <div id="headerContainer">
-            <div class="logoDiv">
-                <a href="./index.html">
-                    <img src="logo.JPG" alt="">
-                </a>
-            </div>
-            <div class="section1">
-                <a href="./camping.html">캠핑장 소개</a>
-                <a href="./reservation.html">예약하기</a>
-                <a style="color: black;" href="./myPage.html">마이 페이지</a>
-            </div>
-            <div class="section2">
-                <a href="#">로그인</a>
-                <a href="#">운영관리</a>
-            </div>
-        </div>
-    </header>
-
+<?php
+echo !isset($_SESSION["user_idx"]) ? "<script>alert('로그인 후 이용 가능합니다.'); location.href='/login';</script>" : null;
+?>
     <table id="myPageTable">
         <tr class="myPageTr">
             <th class="myPageTh">예약 날짜</th>
@@ -47,14 +21,6 @@
             <td class="myPageTd"><button>주문 내역 보기</button></td>
         </tr>
     </table>
-
-    <footer>
-        <p>
-            Copyright(C) Skills Camping All Rights Reserved.<br>충청남도 청양군 대치면 까치내로 123<br>고객센터 전화번호 : 041-987-1234<br>
-            고객센터 운영시간 : 평일 09:00 ~ 18:00, 주말 10:00 ~ 15:00, 점심시간 12:30 ~ 13:30<br>
-            개인정보처리방침, 홈페이지 이용약관
-        </p>
-    </footer>
 
     <div class="modal fade" id="BabiqOrderModal" tabindex="-1" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -98,9 +64,3 @@
             </div>
         </div>
     </div>
-
-    <script src="./jquery/jquery-3.6.0.js"></script>
-    <script src="./bootstrap/dist/js/bootstrap.js"></script>
-    <script src="./js/script.js"></script>
-</body>
-</html>
